@@ -1,70 +1,37 @@
 <html>
 
 <head>
-  <style>
-    .absoluteCenter {
-      position: absolute;
-      top: 50%;
-      width: 100%;
-      text-align: center;
-    }
 
-    .staticCenter {
-      position: static;
-      top: 50%;
-      width: 100%;
-      text-align: center;
-    }
-  </style>
-  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Control Panal</title>
 
 </head>
 
 <body>
 
-  <div class="staticCenter">
-    <h1>Control Panal</h1>
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
 
-  </div>
+  <h1 class="center-align">Control Panal</h1>
 
-  <div class="absoluteCenter">
-
-    <button class="mdc-button mdc-button--raised">
-      <div class="mdc-button__ripple"></div>
-      <i class="material-icons mdc-button__icon" aria-hidden="true">arrow_upward</i>
-      <span class="mdc-button__label">Forwards</span>
-    </button>
-
-    <br />
-
-    <button class="mdc-button mdc-button--raised">
-      <div class="mdc-button__ripple"></div>
-      <i class="material-icons mdc-button__icon" aria-hidden="true">arrow_back</i>
-      <span class="mdc-button__label">Left</span>
-    </button>
-
-    <button class="mdc-button mdc-button--raised">
-      <div class="mdc-button__ripple"></div>
-      <i class="material-icons mdc-button__icon" aria-hidden="true">warning</i>
-      <span class="mdc-button__label">Stop</span>
-    </button>
-
-    <button class="mdc-button mdc-button--raised">
-      <div class="mdc-button__ripple"></div>
-      <i class="material-icons mdc-button__icon" aria-hidden="true">arrow_forward</i>
-      <span class="mdc-button__label">Right</span>
-    </button>
-
-    <br />
-    <button class="mdc-button mdc-button--raised">
-      <div class="mdc-button__ripple"></div>
-      <i class="material-icons mdc-button__icon" aria-hidden="true">arrow_downward</i>
-      <span class="mdc-button__label">Backwards</span>
-    </button>
-
+  <div class="row">
+    <div class="col s6 offset-s3 ">
+      <div class="card-panel teal">
+        <div class="row">
+          <div class="waves-effect waves-light btn-large col s6 offset-s3 blue flow-text z-depth-1"><span><i class="material-icons">arrow_upward</i></span></div>
+          <div class="waves-effect waves-light btn-large col s3 offset-s3 blue flow-text z-depth-1"><span><i class="material-icons">arrow_back</i></span></div>
+          <div class="waves-effect waves-light btn-large col s3 blue flow-text z-depth-1"><span><i class="material-icons">arrow_forward</i></span></div>
+          <div class="waves-effect waves-light btn-large col s6 offset-s3 blue flow-text z-depth-1"><span><i class="material-icons">arrow_downward</i></span></div>
+          <div class="waves-effect waves-light btn-large col s6 offset-s3 red flow-text"><span><i class="material-icons left">warning</i>Stop</span></div>
+        </div>
+      </div>
+    </div>
   </div>
 
 </body>
