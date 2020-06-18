@@ -1,0 +1,117 @@
+body {
+  background: linear-gradient(-30deg, #1d1a19 0px, #282322 100%);
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main > div {
+  display: flex;
+}
+main > div button {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  background: #282322;
+  border: solid 5px transparent;
+  background-clip: padding-box;
+  border-radius: 100%;
+  padding: 1rem;
+  margin: 1.5rem;
+  box-shadow: -3px -3px 13px 3px #302b29, 4px 4px 15px 6px #0c0b0b;
+  animation: depress 75ms linear;
+}
+
+main > div button:active {
+  animation: press 50ms linear;
+  animation-fill-mode: forwards;
+}
+main > div button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: -5px;
+  border: 1px solid #332d2c;
+  border-radius: inherit;
+}
+main > div button:after {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: -5px;
+  border-radius: inherit;
+  background: linear-gradient(-30deg, #2a2625 0%, #201c1b 100%);
+}
+
+@keyframes press {
+  100% {
+    box-shadow: -1px -1px 10px 2px #12100f, 3px 3px 10px 3px #302b29;
+  }
+}
+@keyframes depress {
+  0% {
+    box-shadow: -1px -1px 10px 2px #12100f, 3px 3px 10px 3px #302b29;
+  }
+  100% {
+    box-shadow: 7px 7px 20px 5px #0f0d0d, -3px -3px 20px 3px #463e3c;
+  }
+}
+* {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: none;
+}
+.center,
+.center-align {
+  text-align: center;
+}
+
+.accent {
+  color: #69af74;
+  text-shadow: -1px -1px black, 1px 1px #4e4643;
+}
+
+.red {
+  color: #ef5350;
+  text-shadow: -1px -1px black, 1px 1px #4e4643;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.grid2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.grid8 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.grid6 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.grid4 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.grid5 {
+  grid-area: 2 / 2 / 3 / 3;
+}

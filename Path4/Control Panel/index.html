@@ -1,38 +1,36 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <meta charset="UTF-8">
   <title>Control Panel</title>
+  <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css">
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./style.css">
 
 </head>
 
 <body>
-
-  <!--JavaScript at end of body for optimized loading-->
-  <script type="text/javascript" src="js/materialize.min.js"></script>
-
-  <h1 class="center-align">Control Panel</h1>
-
-  <div class="row">
-    <div class="col s6 offset-s3 ">
-      <div class="card-panel teal">
-        <div class="row">
-          <div class="waves-effect waves-light btn-large col s6 offset-s3 blue flow-text z-depth-1"><span><i class="material-icons">arrow_upward</i></span></div>
-          <div class="waves-effect waves-light btn-large col s3 offset-s3 blue flow-text z-depth-1"><span><i class="material-icons">arrow_back</i></span></div>
-          <div class="waves-effect waves-light btn-large col s3 blue flow-text z-depth-1"><span><i class="material-icons">arrow_forward</i></span></div>
-          <div class="waves-effect waves-light btn-large col s6 offset-s3 blue flow-text z-depth-1"><span><i class="material-icons">arrow_downward</i></span></div>
-          <div class="waves-effect waves-light btn-large col s6 offset-s3 red flow-text"><span><i class="material-icons left">warning</i>Stop</span></div>
-        </div>
-      </div>
+  <h1 class="center-align accent">Control Panel</h1>
+  <main>
+    <div class="parent">
+      <button class="grid2 accent">
+        <i class="fa fa-arrow-up"></i>
+      </button>
+      <button class="grid8 accent">
+        <i class="fa fa-arrow-down"></i>
+      </button>
+      <button class="grid6 accent">
+        <i class="fa fa-arrow-left"></i>
+      </button>
+      <button class="grid4 accent">
+        <i class="fa fa-arrow-right"></i>
+      </button>
+      <button class="grid5 red">
+        <i class="fa fa-times-circle"></i>
+      </button>
     </div>
-  </div>
+  </main>
 
 </body>
 
