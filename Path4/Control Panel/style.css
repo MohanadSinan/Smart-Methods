@@ -1,3 +1,8 @@
+:root {
+  --accent-color: #66BB6A;
+  --error-color: #EF5350;
+}
+
 body {
   background: linear-gradient(-30deg, #1d1a19 0px, #282322 100%);
 }
@@ -83,12 +88,12 @@ button {
 }
 
 .accent {
-  color: #69af74;
+  color: var(--accent-color);
   text-shadow: -1px -1px black, 1px 1px #4e4643;
 }
 
 .red {
-  color: #ef5350;
+  color: var(--error-color);
   text-shadow: -1px -1px black, 1px 1px #4e4643;
 }
 
