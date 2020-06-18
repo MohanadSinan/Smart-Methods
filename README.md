@@ -13,7 +13,7 @@
 
 # Smart Methods
 Here you will find all the required tasks in the four track:
-1. **The first path:** Mechanical design and 3D printing.
-2. **The second path:** Programming and installing humanoid robots and robotic arms.
-3. **The third path:** Artificial intelligence applications in mobile robots.
-4. **The fourth path:** IoT applications in electronic commerce and autoresponder.
+1. **1st path:** Mechanical design and 3D printing.
+2. **2nd path:** Programming and installing humanoid robots and robotic arms.
+3. **3rd path:** Artificial intelligence applications in mobile robots.
+4. **4th path:** IoT applications in electronic commerce and autoresponder.
