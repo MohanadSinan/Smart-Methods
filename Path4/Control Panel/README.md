@@ -48,6 +48,7 @@ The control panel has five buttons, four of them to control the movement of the 
 - MuseoModerno font family from Google Fonts (CDN).
 - Icons from Font Awesome 5 (CDN).
 - normalize.css (CDN).
+</div>
 
 #### TODO:
 
@@ -59,6 +60,4 @@ The control panel has five buttons, four of them to control the movement of the 
 - [x] إضافة النصائح نصية 💬.
 - [ ] إضافة علامة تبويب الإعدادات 🎛.
 - [ ] فكرة جديدة 💡 ...
-
-</div>
 
