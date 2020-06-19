@@ -25,7 +25,7 @@ main > div button {
   background-clip: padding-box;
   border-radius: 100%;
   padding: 1rem;
-  margin: 1.5rem;
+  margin: 1rem;
   box-shadow: -3px -3px 13px 3px #302b29, 4px 4px 15px 6px #0c0b0b;
   animation: depress 75ms linear;
 }
@@ -82,6 +82,11 @@ button {
   border: none;
   background: none;
 }
+h1 {
+  font-family: 'MuseoModerno', cursive;
+  font-size: 3em;
+}
+
 .center,
 .center-align {
   text-align: center;
