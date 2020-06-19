@@ -20,9 +20,9 @@
 #### البرامج المستخدمة:
 
 - XAMPP.
-- notepad++
-- Sublime Text 3
-- FileZilla
+- notepad++.
+- Sublime Text 3.
+- FileZilla.
 
 </div>
 
@@ -48,6 +48,6 @@
 #### Software used:
 
 - XAMPP.
-- notepad++
-- Sublime Text 3
-- FileZilla
+- notepad++.
+- Sublime Text 3.
+- FileZilla.
