@@ -105,6 +105,9 @@ h1 {
   color: var(--error-color);
   text-shadow: -1px -1px 2px black, 0.8px 0.8px 1.5px #4e4643;
 }
+.textred {
+  color: var(--error-color);
+}
 
 .parent {
   display: grid;
@@ -130,7 +133,7 @@ h1 {
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  bottom: 120%;
+  bottom: 115%;
   left: 50%;
   margin-left: -60px;
   opacity: 0;
@@ -153,4 +156,3 @@ button:hover .tiptext {
   visibility: visible;
   transition-delay: 2s;
   opacity: 1;
-}
