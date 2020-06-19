@@ -1,6 +1,6 @@
 :root {
   --accent-color: #66BB6A;
-  --error-color: #EF5350;
+  --error-color: #F44336;
 }
 
 body {
@@ -94,12 +94,12 @@ h1 {
 
 .accent {
   color: var(--accent-color);
-  text-shadow: -1px -1px black, 1px 1px #4e4643;
+  text-shadow: -1px -1px black, 0.8px 0.8px #4e4643;
 }
 
 .red {
   color: var(--error-color);
-  text-shadow: -1px -1px black, 1px 1px #4e4643;
+  text-shadow: -1px -1px black, 0.8px 0.8px #4e4643;
 }
 
 .parent {
