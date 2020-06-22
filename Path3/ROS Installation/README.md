@@ -7,7 +7,7 @@ Here I'll explain step-by-step how to install ROS on Windows 10 using Windows Su
 
 
 | Contents                                                     |
-| ------------------------------------------------------------ |
+| :------------------------------------------------------------ |
 | [<u>Step1:</u> Install the Windows Subsystem for Linux (WSL).](#step1-install-the-windows-subsystem-for-linux-wsl) |
 | [<u>Step2:</u> Install Ubuntu distribution.](#step2-install-ubuntu-distribution) |
 | [<u>Step3:</u> Install ROS distribution.](#step3-install-ros-distribution) |
@@ -58,19 +58,22 @@ WSL 2 is a new version of the architecture in WSL that changes how Linux distrib
 
 > **Note:** WSL 2 is only available in Windows 10, updated to version 2004, **Build 19041** or higher.
 
-1. #### Enable the 'Virtual Machine Platform' optional component:
-   1. Open [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6) as Administrator and run:
-   2. Restart your computer when prompted
+#### Enable the 'Virtual Machine Platform' optional component:
+1. Open [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6) as Administrator and run:
 
 ```powershell
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
 
+2. Restart your computer when prompted
 
 
-1. #### Updating the WSL 2 Linux kernel:
 
-2. #### Set WSL 2 as your default version:
+
+
+#### Updating the WSL 2 Linux kernel:
+
+#### Set WSL 2 as your default version:
 
 
 
