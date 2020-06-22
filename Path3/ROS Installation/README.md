@@ -27,7 +27,6 @@ Before installing any Linux distributions on Windows, you must enable the "Windo
 
    | ![](https://i.imgur.com/a5PDpn8.png?4) |
    | :------------------------------------: |
-   |                                        |
 
    
 
