@@ -20,7 +20,7 @@ Before installing any Linux distributions on Windows, you must enable the "Windo
 
 2. Select *Windows Subsystem for Linux*
 
-   ![](https://imgur.com/a5PDpn8)
+   ![](https://i.imgur.com/a5PDpn8.png)
 
 3. Click *OK*
 
