@@ -99,7 +99,7 @@ wsl --set-default-version 2
 
 ## <u>Step2:</u> Install Ubuntu distribution.
 
-#### Installing Ubuntu on WSL via the Microsoft Store:
+### Installing Ubuntu on WSL via the Microsoft Store:
 
 The following Ubuntu releases are available as apps on the Microsoft Store:
 
@@ -110,7 +110,7 @@ The following Ubuntu releases are available as apps on the Microsoft Store:
 
 
 
-#### Running Ubuntu on WSL:
+### Running Ubuntu on WSL:
 
 The Ubuntu on WSL terminal can be started via:
 
