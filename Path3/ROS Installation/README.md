@@ -6,11 +6,27 @@ Here I'll explain step-by-step how to install ROS on Windows 10 using Windows Su
 
 Contents:
 
-[TOC]
+
 
 
 
 ## <u>Step1:</u> Install the Windows Subsystem for Linux (WSL).
+
+Before installing any Linux distributions on Windows, you must enable the "Windows Subsystem for Linux" optional feature in one of the following ways:
+
+### Using the GUI for enabling Windows features:
+
+1. Open the Start Menu and search *Turn Windows features on or off*
+
+2. Select *Windows Subsystem for Linux*
+
+   ![](https://imgur.com/a5PDpn8)
+
+3. Click *OK*
+
+4. Restart your computer when prompted
+
+
 
 ## <u>Step2:</u> Install Ubuntu distribution.
 
