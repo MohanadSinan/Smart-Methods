@@ -23,7 +23,7 @@ Here I'll explain step-by-step how to install ROS on Windows 10 using Windows Su
 
 Before installing any Linux distributions on Windows, you must enable the "Windows Subsystem for Linux" optional feature in one of the following two ways:
 
-##### Using the GUI for enabling Windows features:
+#### **Using the GUI for enabling Windows features:**
 
 1. Open the Start Menu and search ***Turn Windows features on or off***
 
@@ -40,7 +40,7 @@ Before installing any Linux distributions on Windows, you must enable the "Windo
 
 
 
-##### Using PowerShell:
+#### Using PowerShell:
 
 1. Open [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6) as Administrator and run:
 
