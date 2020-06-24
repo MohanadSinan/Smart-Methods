@@ -1,5 +1,7 @@
 # Control DC motors using Arduino
 
+> **This  project made by [fritzing](https://fritzing.org/) in `.fzz` file format. You can download the project from [here](./2DCmotor.fzz).**
+
 A DC, motor is the most common type of motor. DC motors normally have just two leads, one positive and one negative. If you connect these two leads directly to a battery, the motor will rotate. If you switch the leads, the motor will rotate in the opposite direction.
 
 To control the direction of the spin of DC motor, without changing the way that the leads are connected, you can use a circuit called an H-Bridge. An H bridge is an electronic circuit that can drive the motor in both directions. H-bridges are used in many different applications, one of the most common being to control motors in robots. It is called an H-bridge because it uses four transistors connected in such a way that the schematic diagram looks like an "H".
@@ -10,7 +12,7 @@ You can use discrete transistors to make this circuit, but for this tutorial, we
 
 ### Tow DC motors using Arduino + L298N H-Bridge driver:
 
-**This  project made by [fritzing](https://fritzing.org/) in `.fzz` file format. You can download the project from [here](./2DCmotor.fzz).**
+
 
 | component                       |
 | :------------------------------ |
