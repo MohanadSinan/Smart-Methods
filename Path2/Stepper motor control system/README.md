@@ -18,7 +18,7 @@ The DRV8825 provides an integrated motor driver solution for printers, scanners,
 | :----------------------- |
 | 1X Arduino Board         |
 | 2X Stepper Motors        |
-| 1X DRV8825 driver module |
+| 2X DRV8825 driver module |
 | 1X Power Supply (6-12v)  |
 | 26X Jump Wires           |
 
