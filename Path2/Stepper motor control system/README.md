@@ -54,7 +54,7 @@ The DRV8825 provides an integrated motor driver solution for printers, scanners,
       </td>
     </tr>
 		<tr>
-      <td align="center"><b>Tow Stepper motors using Arduino - Circuit Connection</b><br>
+      <td align="center"><b>Tow Stepper motors using Arduino + DRV8825 driver module - Circuit Connection</b><br>
       </td>
     </tr>
   </tbody>
@@ -94,7 +94,7 @@ The DRV8825 provides an integrated motor driver solution for printers, scanners,
       </td>
     </tr>
 		<tr>
-      <td align="center"><b>Tow Stepper motors using Arduino - schematic</b><br>
+      <td align="center"><b>Tow Stepper motors using Arduino + DRV8825 driver module - schematic</b><br>
       </td>
     </tr>
   </tbody>
