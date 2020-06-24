@@ -1,32 +1,35 @@
-# Control DC motors using Arduino
+# Control Servo motors using Arduino
 
-> **This  project made by [fritzing](https://fritzing.org/) in `.fzz` file format. You can download the project from [here](./2DCmotor.fzz).**
+> **This  project made by [fritzing](https://fritzing.org/) in `.fzz` file format. You can download the project from [here](./2Servomotor.fzz).**
 
-A DC, motor is the most common type of motor. DC motors normally have just two leads, one positive and one negative. If you connect these two leads directly to a battery, the motor will rotate. If you switch the leads, the motor will rotate in the opposite direction.
+You can connect small servo motors directly to an Arduino to control the shaft position very precisely.
 
-To control the direction of the spin of DC motor, without changing the way that the leads are connected, you can use a circuit called an H-Bridge. An H bridge is an electronic circuit that can drive the motor in both directions. H-bridges are used in many different applications, one of the most common being to control motors in robots. It is called an H-bridge because it uses four transistors connected in such a way that the schematic diagram looks like an "H".
+Because servo motors use feedback to determine the position of the shaft, you can control that position very precisely. As a result, servo motors are used to control the position of objects, rotate objects, move legs, arms or hands of robots, move sensors etc. with high precision. Servo motors are small in size, and because they have built-in circuitry to control their movement, they can be connected directly to an Arduino. 
 
-You can use discrete transistors to make this circuit, but for this tutorial, we will be using the L298N H-Bridge driver module. The L298N module can control the speed and direction of DC motors and stepper motors and can control two motors simultaneously. Its current rating is 2A for each motor. At these currents, however, you will need to use heat sinks. 
+Most servo motors have the following three connections: 
+
+- Black/Brown ground wire. 
+- Red power wire (around 5V). 
+- Yellow or White PWM wire.
+
+In this experiment, we will connect the power and ground pins directly to the Arduino 5V and GND pins. The PWM input will be connected to one of the Arduino's digital output pins.
 
 
 
-### Tow DC motors using Arduino + L298N H-Bridge driver:
+### Tow Servo motors using Arduino + L298N H-Bridge driver:
 
 
 
-| component                       |
-| :------------------------------ |
-| 1X Arduino Board                |
-| 2X DC Motors                    |
-| 1X L298N H-Bridge driver module |
-| 1X Power Supply (6-12v)         |
-| 12X Jump Wires                  |
-
+| component        |
+| :--------------- |
+| 1X Arduino Board |
+| 2X Servo Motors  |
+| 6X Jump Wires    |
 
 <table>
   <tbody>
     <tr>
-      <td align="center"><img src="2DCmotor.svg" alt="Circuit Connection"><br>
+      <td align="center"><img src="2Servomotor.svg" alt="Circuit Connection"><br>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
@@ -55,7 +58,7 @@ You can use discrete transistors to make this circuit, but for this tutorial, we
       </td>
     </tr>
 		<tr>
-      <td align="center"><b>Tow DC motors using Arduino + L298N H-Bridge driver - Circuit Connection</b><br>
+      <td align="center"><b>Tow Servo motors using Arduino - Circuit Connection</b><br>
       </td>
     </tr>
   </tbody>
@@ -66,7 +69,7 @@ You can use discrete transistors to make this circuit, but for this tutorial, we
 <table>
   <tbody>
     <tr>
-      <td align="center"><img src="2DCmotor_schem.svg" alt="schematic"><br>
+      <td align="center"><img src="2Servomotor_schem.svg" alt="schematic"><br>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
@@ -95,7 +98,7 @@ You can use discrete transistors to make this circuit, but for this tutorial, we
       </td>
     </tr>
 		<tr>
-      <td align="center"><b>Tow DC motors using Arduino + L298N H-Bridge driver - schematic</b><br>
+      <td align="center"><b>Tow Servo motors using Arduino - schematic</b><br>
       </td>
     </tr>
   </tbody>
