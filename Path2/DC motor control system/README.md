@@ -28,7 +28,7 @@ This  project made by [fritzing](https://fritzing.org/) in `.fzz` file format. Y
 
 
 
-| ![schematic](C./2DCmotor_schem.svg) |
+| ![schematic](./2DCmotor_schem.svg) |
 | :----------------------------------------------------------: |
 | Tow DC motors using Arduino + L298N H-Bridge driver - schematic |
 
