@@ -10,7 +10,7 @@ You can use discrete transistors to make this circuit, but for this tutorial, we
 
 ### Tow DC motors using Arduino + L298N H-Bridge driver:
 
-This  project made by [fritzing](https://fritzing.org/) in `.fzz` file format. You can download the project from here. 
+This  project made by [fritzing](https://fritzing.org/) in `.fzz` file format. You can download the project from [here](./2DCmotor.fzz). 
 
 | component                       |
 | :------------------------------ |
