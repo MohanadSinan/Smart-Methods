@@ -13,7 +13,7 @@ You can use discrete transistors to make this circuit, but for this tutorial, we
 This  project made by [fritzing](https://fritzing.org/) in `.fzz` file format. You can view the project from here. 
 
 | component                       |
-| ------------------------------- |
+| :------------------------------ |
 | 1X Arduino Board                |
 | 2X DC Motors                    |
 | 1X L298N H-Bridge driver module |
@@ -22,13 +22,13 @@ This  project made by [fritzing](https://fritzing.org/) in `.fzz` file format. Y
 
 
 
-| ![Circuit Connection](C:\Users\MohanadSinan\OneDrive\Documents\GitHub\Smart-Methods\Path2\DC motor control system\2DCmotor.svg) |
+| ![Circuit Connection](./2DCmotor.svg) |
 | :----------------------------------------------------------: |
 | Tow DC motors using Arduino + L298N H-Bridge driver - Circuit Connection |
 
 
 
-| ![schematic](C:\Users\MohanadSinan\OneDrive\Documents\GitHub\Smart-Methods\Path2\DC motor control system\2DCmotor_schem.svg) |
+| ![schematic](C./2DCmotor_schem.svg) |
 | :----------------------------------------------------------: |
 | Tow DC motors using Arduino + L298N H-Bridge driver - schematic |
 
