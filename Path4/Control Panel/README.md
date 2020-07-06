@@ -5,6 +5,7 @@
 #### Contents:
 
 - [`index.html`](Control%20Panel/index.html): The main HTML page.
+- [`script.js`](Control%20Panel/script.js): An external Javascript.
 - [`style.css`](Control%20Panel/style.css): An external CSS style sheet.
 
 #### Abstract:
@@ -13,7 +14,7 @@ This webpage was created to build a robot control panel.
 The control panel has five buttons, four of them to control the movement of the robot and the fifth is an emergency stop button.
 
 #### Features:
-- Dark Neomorphic design.
+- Light/Dark Neomorphic design.
 - Small Screens friendly.
 - MuseoModerno font family from Google Fonts (CDN).
 - Icons from Font Awesome 5 (CDN).
@@ -27,6 +28,7 @@ The control panel has five buttons, four of them to control the movement of the 
 - [x] Choose a suitable design 🔮.
 - [x] Make the webpage mobile phones friendly 📱.
 - [x] Add text tips 💬.
+- [x] Add Light/Dark theme switching button 🌗.
 - [ ] Add settings tab 🎛.
 - [ ] New idea 💡 ...
 
@@ -43,7 +45,7 @@ The control panel has five buttons, four of them to control the movement of the 
 تحتوي لوحة التحكم على خمسة أزرار ، أربعة منها للتحكم في حركة الروبوت والخامس زر توقف للطوارئ.
 
 #### مميزات:
-- تصميم نيومورفي داكن.
+- تصميم نيومورفي فاتح/داكن.
 - مناسب للشاشات الصغيرة
 - MuseoModerno font family from Google Fonts (CDN).
 - Icons from Font Awesome 5 (CDN).
@@ -58,6 +60,7 @@ The control panel has five buttons, four of them to control the movement of the 
 - [x] اختيار التصميم المناسب 🔮.
 - [x] جعل صفحة الويب مناسبة للهواتف المحمولة 📱.
 - [x] إضافة النصائح نصية 💬.
+- [x] إضافة زر تبديل الثيم فاتح/داكن 🌗.
 - [ ] إضافة علامة تبويب الإعدادات 🎛.
 - [ ] فكرة جديدة 💡 ...
 
