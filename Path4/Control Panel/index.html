@@ -5,41 +5,35 @@
   <meta charset="UTF-8">
   <title>Control Panel</title>
   <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css">
-  <link rel='stylesheet' href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap">
   <link rel="stylesheet" href="./style.css">
-
+  <script src="./script.js"></script>
 
 </head>
 
-<body>
-  <h1 class="center-align accent">Control Panel</h1>
-  <main>
+<body class="light">
+  <h1 class="accent font">Control Panel</h1>
+  <button class="mode accent font">light</button>
+  <div class="counter">
     <div class="parent">
       <button class="grid2 accent">
-        <i class="fas fa-angle-up fa"></i>
-        <span class="tiptext">Forwards</span>
+        <i class="fas fa-angle-up"></i>
       </button>
       <button class="grid8 accent">
-        <i class="fas fa-angle-down fa"></i>
-        <span class="tiptext">Backwards</span>
-      </button>
-      <button class="grid6 accent">
-        <i class="fas fa-angle-left fa"></i>
-        <span class="tiptext">Left</span>
+        <i class="fas fa-angle-down"></i>
       </button>
       <button class="grid4 accent">
-        <i class="fas fa-angle-right fa"></i>
-        <span class="tiptext">Right</span>
+        <i class="fas fa-angle-left"></i>
+      </button>
+      <button class="grid6 accent">
+        <i class="fas fa-angle-right"></i>
       </button>
       <button class="grid5 red">
         <i class="fas fa-times-circle"></i>
-        <span class="tiptext textred">Stop</span>
       </button>
     </div>
-  </main>
-  
-</div>
+  </div>
 
 </body>
 
