@@ -23,6 +23,7 @@ When the user clicks on the buttons it will automatically send the directions da
 - Icons from Font Awesome 5 (CDN).
 - jQuery AJAX scripts.
 - PHP Data Objects (PDO) extension.
+- Live database connection status output.
 
 #### TODO:
 
@@ -64,12 +65,14 @@ When the user clicks on the buttons it will automatically send the directions da
 
 - PHP Data Objects (PDO) extension.
 
+- إظهار حالة الاتصال بقاعدة البيانات مباشرة.
+
   </div>
 
 #### TODO:
 
 - [x] إنشاء الأزرار ▶.
-- [ ] إضافة معنى للأزرار 🧩.
+- [x] إضافة معنى للأزرار 🧩.
 - [x] إعادة ترتيب الأزرار 🎮.
 - [x] اختيار التصميم المناسب 🔮.
 - [x] جعل صفحة الويب مناسبة للهواتف المحمولة 📱.
