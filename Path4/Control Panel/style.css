@@ -96,7 +96,7 @@ button:active .fas {
   cursor: pointer;
 }
 
-/*===Light Mode===*/
+/*=====Light Mode=====*/
 body.light {
   background: #eeeeee;
 }
